@@ -1,6 +1,8 @@
 package Colecciones;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
@@ -19,8 +21,7 @@ public class Palabras {
 	}
 
 	public void añadirPalabra(String palabra) throws IOException {
-		BufferedWriter stdn = new BufferedWriter(new FileWriter("C:\\Users\\Lucia\\texto.txt",true));
-		
+		BufferedReader in = new BufferedReader(new FileReader("C:\\Users\\Lucia\\ElQuijote.txt"));
 	}
 
 	public void añadirPalabras(String palabras) {
